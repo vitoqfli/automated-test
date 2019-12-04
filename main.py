@@ -2,10 +2,6 @@
 # Author : vitoqfli
 # Data : 2019/12/4 23:11
 
-
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
-
 from appium import webdriver
 
 from selenium.webdriver.support.ui import WebDriverWait
@@ -19,7 +15,6 @@ import time
 from time import sleep
 
 import desired_capabilities
-
 
 
 class AndroidTest(unittest.TestCase):
